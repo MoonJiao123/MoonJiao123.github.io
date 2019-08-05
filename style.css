@@ -1,5 +1,5 @@
 body {
-	background-color: #EAE7DC;
+	background-color: #F4F4F4;
 }
 .jumbotron{
 	background-color: grey;
@@ -18,23 +18,23 @@ body {
 	color: #E85A4F!important;
 }
 .navbar{
-	background: #D8C3A5;
+	background: #6D7993;
 }
 .navbar-toggler{
 	border: none!important;
 }
 .nav-link{
-	color: #555!important;
+	color: white!important;
 	font-weight: 600;
 	font-size: 16px;
 }
 
 /*--image--*/
 .profile img {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
-	padding: 15px;
+	padding: 30px;
 }
 .center{
 	display: block;
@@ -155,7 +155,7 @@ div{
 }
 .greeting{
 	text-align: center;
-	padding: 10px;
+	padding-bottom: 10px;
 }
 
 
