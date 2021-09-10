@@ -1,10 +1,14 @@
 body {
-	background-image: url('img/background.jpg');
+	/* background-image: url('img/background.jpg'); */
+	background-color: rgb(230, 228, 228);
 	
 }
+
+/* introduction */
 .jumbotron{
-	background-color: black;
-	color:white;
+	background-color: #b8bac7;
+	color: #3c3c41;
+	text-align: left;
 }
 
 /*--navbar--*/
@@ -19,7 +23,7 @@ body {
 	color: #E85A4F!important;
 }
 .navbar{
-	background: rgb(37, 38, 40);
+	background: #8c8ea8;
 }
 .navbar-toggler{
 	border: none!important;
@@ -141,6 +145,22 @@ div.desc {
 }
 
 /*--text--*/
+.greeting{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.greeting h1 {
+	display: inline;
+	color: #E85A4F;
+	font-weight: bolder;
+}
+.greeting h2{
+	display: inline;
+	color: #3c3c41;
+}
+
+
 p {
 	text-align: center;
 }
@@ -148,15 +168,11 @@ p {
 h1 {
 	padding-top: 50px;
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 div{
 	text-align: center;
-}
-.greeting{
-	text-align: center;
-	padding-bottom: 10px;
 }
 
 
