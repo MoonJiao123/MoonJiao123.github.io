@@ -4,12 +4,7 @@ body {
 	
 }
 
-/* introduction */
-.jumbotron{
-	background-color: #b8bac7;
-	color: #3c3c41;
-	text-align: left;
-}
+
 
 /*--navbar--*/
 .navbar-nav li{
@@ -20,10 +15,10 @@ body {
 	text-align: left; 
 }
 #nav-bar ul li a:hover{
-	color: #E85A4F!important;
+	color: #003983!important;
 }
 .navbar{
-	background: #8c8ea8;
+	background: #2ab5f5;
 }
 .navbar-toggler{
 	border: none!important;
@@ -33,24 +28,59 @@ body {
 	font-weight: 600;
 	font-size: 16px;
 }
+.nav-img{
+	height: 2rem;
+	padding-right: 10px;
+	-webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
 
-/*--image--*/
+
+
+/*--profile image--*/
+.profile{
+	/* display: inline-block;
+	text-align: center; */
+
+	/* text-align: center; */
+}
+.profile h1 {
+	display: inline-block;
+	text-align: center;
+
+	/* margin-left: -8em; */
+	/* display: inline-block; */
+
+}
+
 .profile img {
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
 	border-radius: 50%;
 	padding: 30px;
+	text-align: center;
+  	vertical-align: middle;
 }
-.center{
+
+/* .center{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
 	float: left;
 	width: 50%;
 	padding: 5px;
+}
+
+/* introduction */
+.jumbotron{
+	background-color: #c7e7fb;
+	color: #3c3c41;
+	text-align: left;
+	height: 100%;
+
 }
 
 /* Clear floats after image containers */
@@ -70,6 +100,12 @@ body {
 } */
 
 /*--experience responsive images--*/
+.logo{
+	height: 30px;
+}
+.work-img{
+	height: 10rem;
+}
 .my-grid {
 	margin: 30px;
 }
@@ -153,13 +189,12 @@ div.desc {
 /*--text--*/
 .greeting{
 	text-align: center;
-	padding-bottom: 10px;
+	font-weight: bolder;
+	padding-bottom: 2rem;
 }
 
-.greeting h1 {
-	display: inline;
-	color: #E85A4F;
-	font-weight: bolder;
+.larger-badge{
+	font-size: 1.1em;
 }
 .greeting h2{
 	display: inline;

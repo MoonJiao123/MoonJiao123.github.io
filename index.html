@@ -19,13 +19,21 @@
 	<!--navigator-->
 	<section id="nav-bar">
 		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="collapse navbar-collapse my-nav" id="navbarNav">
+				<a href="https://github.com/MoonJiao123" class="navbar-left"><img class="nav-img"
+						src="img/github.png"></a>
+				<a href="https://www.linkedin.com/in/yuejiaofile" class="navbar-left"><img class="nav-img"
+						src="img/linkedin.png" alt="Forest"></a>
+
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#experience">Experience</a>
+						<a class="nav-link" href="#work-exp">Work Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#hackthons">Hackthons</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#projects">Projects</a>
@@ -40,17 +48,74 @@
 
 	<!--profile picture-->
 	<section id="home">
+
 		<div class="profile">
-			<img src="img/me.jpg" alt="profile picture" class="center">
+			<h1>Hi, my name is <span class="badge badge-primary larger-badge">Yue Jiao</span></h1>
+
+			<img src="img/me.jpg" alt="profile picture">
+			<!-- <div style="float:none;"></div> -->
+			<h1>a <span class="badge badge-info larger-badge">Full Stack Enginner</span></h1>
 		</div>
 
-		<div class="greeting">
-			<h2>Hi, I'm <h1>Yue Jiao</h1>
-			</h2>
-		</div>
+		<!-- <div class="greeting">
+			<h1>Hi, I'm <span class="badge badge-secondary larger-badge">Yue Jiao</span></h1>
+		</div> -->
 
 		<!--introductiom-->
-		<div class="jumbotron">
+
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="jumbotron jumbotron-fluid">
+						<div class=".container-fluid">
+							<h1 class="display-4">A bit about me1:</h1>
+							<p class="lead">I am a graduate student at UC San Diego, majoring in Computer Science. I am
+								graduateing around end of 2022.
+								I am a full stack engineer that can do backend, frontend, and testing and always
+								passionate with new
+								challanges!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="jumbotron jumbotron-fluid">
+						<div class=".container-fluid">
+							<h1 class="display-4">A bit about me2:</h1>
+							<p class="lead">I am a graduate student at UC San Diego, majoring in Computer Science. I am
+								graduateing around end of 2022.
+								I am a full stack engineer that can do backend, frontend, and testing and always
+								passionate with new
+								challanges!
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="jumbotron jumbotron-fluid">
+						<div class=".container-fluid">
+							<h1 class="display-4">A bit about me3:</h1>
+							<p class="lead">I am a graduate student at UC San Diego, majoring in Computer Science. I am
+								graduateing around end of 2022.
+								I am a full stack engineer that can do backend, frontend, and testing and always
+								passionate with new
+								challanges!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" data-target="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" data-target="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<!-- <div class="jumbotron">
 			<h4>A bit about me:</h4>
 			<ul>
 				<ui>I am a graduate student at UC San Diego, majoring in Computer Science.</ui>
@@ -59,9 +124,9 @@
 					challanges!</ui>
 			</ul>
 
-		</div>
+		</div> -->
 		<!--contact images-->
-		<div class="row">
+		<!-- <div class="row">
 			<div class="column">
 				<a href="https://github.com/MoonJiao123"><img src="img/github.png" alt="Snow" style="width:100%"></a>
 			</div>
@@ -69,12 +134,45 @@
 				<a href="https://www.linkedin.com/in/yuejiaofile"><img src="img/linkedin.png" alt="Forest"
 						style="width:100%"></a>
 			</div>
-		</div>
+		</div> -->
 
+	</section>
+	<!--Work Experience-->
+	<section id="work-exp">
+		<h1>Work Experience</h1>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-6">
+						<h1 class="display-4">Testing Engineer</h1>
+						<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
+							parent.
+						</p>
+						
+						<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+					</div>
+
+					<div class="col-6 ">
+						<img class="work-img" src="img/apollo.jpg" alt="">
+					</div>
+
+				</div>
+				<img class="logo" src="img/baidu.png" alt="baidu">
+			</div>
+		</div>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">Software Engineer</h1>
+				<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its
+					parent.
+				</p>
+			</div>
+		</div>
 	</section>
 
 	<!--related experiences-->
-	<section id="experience">
+	<section id="hackthons">
 		<h1>Hackthons</h1>
 		<div class="container-fluid my-grid">
 			<div class="row my-row">
@@ -106,7 +204,8 @@
 						<img class="card-img-top" src="img/route.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title text-center">IBM AI Hack 2019</h5>
-							<p class="card-text text-left"> Built an android app to lead people to safe spot dring emegercy
+							<p class="card-text text-left"> Built an android app to lead people to safe spot dring
+								emegercy
 								flooding. Google API, Android Studio, IBM Cloudant, Java, JavaScript, Git</p>
 							<a href="https://devpost.com/software/recipe101" class="btn btn-primary">Check it out</a>
 						</div>
@@ -119,7 +218,8 @@
 						<img class="card-img-top" src="img/drum.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title text-center">HackXR 2019 </h5>
-							<p class="card-text text-left"> Built a first person VR rhythm game where player plays drum in time with
+							<p class="card-text text-left"> Built a first person VR rhythm game where player plays drum
+								in time with
 								music beats with HTC Vive.
 								Unity, C#, Git</p>
 							<a href="https://devpost.com/software/recipe101" class="btn btn-primary">Check it out</a>
@@ -131,7 +231,8 @@
 						<img class="card-img-top" src="img/car.jpg" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title text-center"> BHackXX 2019 </h5>
-							<p class="card-text text-left">Built an gyroscope arduino unit that could be controlled via bluetooth on
+							<p class="card-text text-left">Built an gyroscope arduino unit that could be controlled via
+								bluetooth on
 								android app we built and pc. Git, Android Studio, Arduino, Python, Java</p>
 							<a href="https://devpost.com/software/recipe101" class="btn btn-primary">Check it out</a>
 						</div>
@@ -142,7 +243,8 @@
 						<img class="card-img-top" src="img/recharge.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title text-center">Global Game Jam 2019 </h5>
-							<p class="card-text text-left"> Built a 2D adventure game where the player can rest and start
+							<p class="card-text text-left"> Built a 2D adventure game where the player can rest and
+								start
 								again at home. Unity, Photoshop, Git</p>
 							<a href="https://devpost.com/software/recipe101" class="btn btn-primary">Check it out</a>
 						</div>
@@ -166,6 +268,8 @@
 	</section>
 	<!--projects-->
 	<section id="projects">
+		<h1>Projects</h1>
+		
 		<!-- <h1>Projects</h1>
 		<div class="container">
 			<img src="img/navi.png" alt="navigation" class="image">
@@ -213,10 +317,10 @@
 
 	<!--resume-->
 	<section id="resume">
-		<!-- <h1>Resume</h1>
+		<h1>Resume</h1>
 		<iframe
 			src="https://docs.google.com/gview?url=https://github.com/MoonJiao123/MoonJiao123.github.io/raw/master/Resume.pdf&embedded=true"
-			style="width:100%; height:1000px;" frameborder="1"></iframe> -->
+			style="width:100%; height:1000px;" frameborder="1"></iframe>
 	</section>
 	<!--scrolling effect-->
 	<script src="smooth-scroll.js"></script>
@@ -226,8 +330,8 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 
