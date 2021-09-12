@@ -76,12 +76,25 @@ body {
 
 /* introduction */
 .jumbotron{
-	background-color: #c7e7fb;
+	background-color: #dff2fd;
 	color: #3c3c41;
-	text-align: left;
 	height: 100%;
 
+}	
+/* .baidu h1{
+	color: #fff;
 }
+.baidu{
+	color: #fff;
+	background-image: url("img/apollo.png");
+  	background-size: cover;
+} */
+/* .thirty-friends{
+	color: #000000;
+	background-image: url("img/thirty_friends.png");
+	background-size: cover;
+
+} */
 
 /* Clear floats after image containers */
 /* .row::after {
@@ -101,10 +114,11 @@ body {
 
 /*--experience responsive images--*/
 .logo{
-	height: 30px;
+	height: 50px;
 }
 .work-img{
 	height: 10rem;
+	width: 100%;
 }
 .my-grid {
 	margin: 30px;
@@ -217,3 +231,6 @@ div{
 }
 
 
+.margin-20{
+	margin: 20px;
+}
