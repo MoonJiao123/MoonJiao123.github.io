@@ -14,7 +14,7 @@ body {
 	float: right;
 	text-align: left; 
 }
-#nav-bar ul li a:hover{
+.nav-bar ul li a:hover{
 	color: #003983!important;
 }
 .navbar{
@@ -62,6 +62,12 @@ body {
   	vertical-align: middle;
 }
 
+.carousel-control-prev-icon{
+	filter: invert(1);
+}
+.carousel-control-next-icon{
+	filter: invert(0.5);
+}
 /* .center{
 	display: block;
 	margin-left: auto;
@@ -76,7 +82,7 @@ body {
 
 /* introduction */
 .jumbotron{
-	background-color: #f3f3f3;
+	background-color: hsl(0, 3%, 94%);
 	color: #3c3c41;
 	height: 100%;
 
